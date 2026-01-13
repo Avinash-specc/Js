@@ -3,7 +3,7 @@
 // alert("hello")  // we are using nodejs, not browser
 let age = 18
 let isLoggedin =false
-//number => 2 to the power 53
+//number => 2 to the power 53 -1 or (2^53-1)
 //bigint
 //string => ""
 //boolean => true/false
@@ -13,4 +13,4 @@ let isLoggedin =false
 //object 
 
 console.log(typeof undefined ) //undefined
-console.log(typeof null) //object
+console.log(typeof null) //object 
