@@ -57,5 +57,5 @@ num1 = num2 = num3 =2+2
 // console.table([num1,num2,num3])
 
 let gameCounter = 100
-++gameCounter
-console.log(gameCounter)
+let v = ++gameCounter // ++gameCounter --> first updates the value then store it in the variable while gamecounter++ --> first stores the original value then updates it.
+console.log(v)
