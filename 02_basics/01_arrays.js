@@ -14,6 +14,7 @@ const myHeroes = ["Shaktiman", "naagraj"]
 // myArr.pop()
 // console.log(myArr)
 
+//myArr.shift()// Removes the first element from the array.Not Advised to use for optimizations.
 // myArr.unshift(9) // Adds 9 at the end oftenly not advised to use this b'coz of optimizations.
 
 // console.log(myArr.includes(9)) //Checks whether 9 is available in the array or not.
