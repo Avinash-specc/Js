@@ -20,7 +20,7 @@ const myHeroes = ["Shaktiman", "naagraj"]
 // console.log(myArr.includes(9)) //Checks whether 9 is available in the array or not.
 // console.log(myArr.indexOf(5)) // Returns the index of 5.
 
-// const newArr = myArr.join()
+// const newArr = myArr.join() //Inside the braces separator is provided by default it is comma.
 
 // console.log(myArr)
 // console.log(newArr)//Prints the value in string i.e it's type is changed to string.
