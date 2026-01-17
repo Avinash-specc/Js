@@ -19,4 +19,7 @@ const JsUser = {
 console.log(JsUser.email) //Objects can be accessed by using dot , Prefer below syntax.It uses square braces. Both syntaxes are same.
 console.log(JsUser["email"]) //As key is stored as string without any explicit declaration use "Double_quotes" to call the key which outputs value.
 console.log(JsUser["full name"])
-console.log(typeof JsUser.mySym)
+// console.log(typeof JsUser.mySym) // It outputs string if mySym is not defined as a symbol in the object.
+
+console.log(JsUser[mySym])
+
