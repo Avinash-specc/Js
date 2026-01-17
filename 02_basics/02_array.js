@@ -22,7 +22,7 @@ const realUsableArray = anotherArray.flat(Infinity)//In place of infinity depth 
 
 console.log(realUsableArray)
 
-console.log(Array.isArray("Avinash"))
+console.log(Array.isArray("Avinash")) //Outputs boolean value true/false.
 console.log(Array.from("Avinash"))
 
 console.log(Array.from({name:"Avinash"})) //Returns empty array as no information is given to either use key or value to generate an array.
