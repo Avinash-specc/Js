@@ -52,6 +52,7 @@ const course = {
 
 const {courseInstructor: instructor} = course
 
+course.instructor = "Avi"
 console.log(instructor)
 
 
@@ -62,8 +63,8 @@ console.log(instructor)
 // }
 
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
