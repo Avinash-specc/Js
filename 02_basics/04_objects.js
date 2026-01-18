@@ -40,3 +40,30 @@ console.log(Object.values(tinderUser))//Converts values of the objects in arrays
 console.log(Object.entries(tinderUser))//Converts all of the key and value pairs in arrays inside an array.
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"))
+
+const course = {
+    courseName:"js in hindi",
+    price:"999",
+    courseInstructor:"Hitesh Sir",
+
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor)
+
+
+// {
+//     "name":"Hitesh",
+//     "courseName":"js in hindi",
+//     "price":"free";
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
