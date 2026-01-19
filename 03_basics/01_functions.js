@@ -27,4 +27,10 @@ function loginUserMessage(username = "Avi "){ //Avi is default message here.
     return `${username} just logged in` 
 }
 
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+function calculateCartPrice(num1){
+    return num1
+}
+
+console.log(calculateCartPrice(200,400,500))
