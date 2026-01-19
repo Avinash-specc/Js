@@ -19,7 +19,7 @@
 
 // // +++++++++++++++++++++++++ Maths +++++++++++++++++++++++++
 
-// console.log(Math.abs(343))
+// console.log(Math.abs(-343)) //Returns the absolute value of the variable or number passed.
 // console.log(Math.round(4.5))// Is used for rounding off the number
 // console.log(Math.ceil(4.2)) // Always prefers the higher number even if there is a slight difference in the value.
 
