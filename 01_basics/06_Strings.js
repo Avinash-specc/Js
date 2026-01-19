@@ -29,7 +29,7 @@ console.log(url)
 console.log(url.replace("989",""))
 console.log(url.includes("specc")) //checks for a substring
 
-console.log(gameName.split('-'))
+console.log(gameName.split('-')) // separates content based on the value provided in the braces and arranges themselves in an array. By default value is "," .
 
 
 // Practice different string methods.
