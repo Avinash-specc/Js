@@ -39,3 +39,16 @@ else if (balance<900){
 else{
     console.log("Less than 1200")
 }
+
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+const userLoggedIn = true
+const debitCard = true
+
+if(userLoggedIn && debitCard && loggedInFromGoogle){
+    console.log("Allow to buy courses.")
+}
+
+if(loggedInFromGoogle|| loggedInFromEmail){
+    console.log("User logged in")
+}
