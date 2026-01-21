@@ -42,3 +42,9 @@ val1 = null ?? 10 ?? 20
 
 console.log(val1)
 
+// Ternary Operator 
+
+// condition ? true : false
+
+const iceTeaPrice = 100
+iceTeaPrice <= 80 ? console.log("Less than 80") : console.log("Greater than 80")
