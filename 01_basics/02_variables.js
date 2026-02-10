@@ -10,7 +10,7 @@ console.log(accountId)
 accountEmail="hc@ha.email.com" // We might also create a variable without specifying its type.
 
 accountPassword="322323"
-accountCity="Bengaluru"
+accountCity="Bengaluru" // It creates a Implicit global variable --> Implicit globals can cause bugs and pollution of the global scope, making code harder to maintain.
 
 console.log(accountId)
 
