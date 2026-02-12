@@ -21,10 +21,10 @@ console.log(jsUser["email"]) //As key is stored as string without any explicit d
 console.log(jsUser["full name"])
 // console.log(typeof jsUser.mySym) // It outputs string if mySym is not defined as a symbol in the object.
 
-console.log(jsUser[mySym])
+console.log(jsUser[mySym]) //No need to use double quotes as it is a symbol.
 
 jsUser.email = "avinashkushwaha@gmail.com"
-// Object.freeze(jsUser)
+// Object.freeze(jsUser) //Prevents any further change in the object.
 
 jsUser.email= "adfja@gmail.com"
 console.log(jsUser.email)
