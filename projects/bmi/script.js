@@ -15,7 +15,7 @@ form.addEventListener('submit',function(e){
     results.innerHTML = `Please Enter a valid weight ${weight}`
   }
   else{
-    const bmi = (weight / ((height*height) /1000)).toFixed(2)
+    const bmi = (weight / ((height*height) /10000)).toFixed(2)
     results.innerHTML = `<span>${bmi}</span>`
     if(bmi<=18.6){
         results.innerHTML += "</br>" + `<span style="font-weight:bolder; color:red">Underweight</span>`
