@@ -3,17 +3,17 @@ const body = document.querySelector('body')
 console.log(buttons)
 
 buttons.forEach(function(button){
-  button.addEventListener('click', function (c){
-    if(c.target.id === 'grey'){
-      body.style.backgroundColor = c.target.id;
+button.addEventListener('click', function (e){
+    if(e.target.id === 'grey'){
+      body.style.backgroundColor = e.target.id;
     }
-    if(c.target.id ==='white'){
-      body.style.backgroundColor=c.target.id;
+    if(e.target.id ==='white'){
+      body.style.backgroundColor=e.target.id;
     }
-    if(c.target.id ==='yellow'){
-      body.style.backgroundColor=c.target.id;
+    if(e.target.id ==='yellow'){
+      body.style.backgroundColor=e.target.id;
     }
-    if(c.target.id ==='blue'){
-      body.style.backgroundColor=c.target.id;
+    if(e.target.id ==='blue'){
+      body.style.backgroundColor=e.target.id;
     }}
     )})
