@@ -56,6 +56,7 @@ Teacher.__proto__ = User
 //Modern Syntax
 
 Object.setPrototypeOf(TeachingSupport,Teacher)
+console.log(Teacher) //Still shows the predefined keyvalue pairs howevers new data can be accessed using forinloops as they are connected by prototypes
 
 let anotherUserName= "ChaiAurCode     "
 String.prototype.trueLength = function(){
