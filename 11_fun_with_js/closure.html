@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121;">
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+    <script>
+
+        // function outer(){
+        //     let userName = "Avinash"
+        //     console.log(secret) //No access
+        //     function inner(){
+        //         let secret = "my123"
+        //         console.log("inner",userName) //Child has the access
+        //     }
+        //     function innerTwo(){
+        //         console.log("inner",userName) //Child has the access
+        //         console.log(secret) // Same level, no access
+        //     }
+        //     inner()
+        //     innerTwo()
+        // }
+        // outer()
+        // console.log("Too outer",userName) 
+
+        function makeFunc(){
+            const name = "Avinash"
+            function displayName(){
+                console.log(name)
+            }
+            return displayName //as this is only returned so parent function's scope might be vanished outside of this function so we store it in a new variable which leads to prevention of deletion of function's local scope
+        }
+        
+
+        // const myFunc = makeFunc()
+        // myFunc()
+    </script>
+    <script>
+        // document.getElementById("orange").onclick = function(){
+        //     document.body.style.backgroundColor = 'orange'
+        // }
+        // document.getElementById("green").onclick = function(){
+        //     document.body.style.backgroundColor = 'green'
+        // }
+
+        function clickHandler(color){
+            // document.body.style.backgroundColor = `${color}` //with this it will directly implement the color without any click
+
+            return function(){
+                document.body.style.backgroundColor = `${color}`
+            }
+        }
+
+        document.getElementById('orange').onclick = clickHandler('orange')
+        document.getElementById('green').onclick = clickHandler('green')
+    </script>
+</body>
+</html>
