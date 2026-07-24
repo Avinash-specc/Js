@@ -25,7 +25,7 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId)
 
-const bigNumber = 32334343434343434343434334324324324n //use n at the end to convert a number to bigint
+const bigNumber = 32334343434343434343434334324324324n//use n at the end to convert a number to bigint
 console.log(typeof(bigNumber))
 
 
